@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - telr_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - telr_flutter (from `.symlinks/plugins/telr_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  telr_flutter:
+    :path: ".symlinks/plugins/telr_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  telr_flutter: f69245005efb5ee066d062a1045a7850ab78eb06
+
+PODFILE CHECKSUM: e12a2251577476c7052f7bb5694937eb497dfaeb
+
+COCOAPODS: 1.10.0
