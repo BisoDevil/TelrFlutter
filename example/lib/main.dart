@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:telr_flutter/telrFlutter.dart';
+import 'package:telr_flutter/telr_flutter.dart';
 
 void main() {
   runApp(MyApp());
