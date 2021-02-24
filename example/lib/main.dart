@@ -29,15 +29,21 @@ class _MyAppState extends State<MyApp> {
       ),
     );
     telr.billingAddress = BillingAddress(
-        city: "Dubai",
-        country: "AE",
-        firstName: "Basem",
-        lastName: "Abduallah",
-        line: "236b stree",
-        phoneNumber: "01007898142",
-        region: "Dubai");
+      city: "Dubai",
+      country: "AE",
+      firstName: "Basem",
+      lastName: "Abduallah",
+      line: "236b stree",
+      phoneNumber: "01007898142",
+      region: "Dubai",
+    );
     telr.makePayment(
-      transaction: Transaction(amount: "2"),
+      transaction: Transaction(
+        amount: "2",
+        currency: "AED",
+        language: "en",
+        userId: "123455",
+      ),
     );
   }
 
